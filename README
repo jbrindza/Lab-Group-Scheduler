@@ -1,0 +1,35 @@
+Lab Assigner
+University of Pennsylvania
+Brindza, Jordan
+Lee, Alexandra
+May, 2010
+
+
+This program solves the problem of dividing up a class every lab (which occurred anywhere from 5-10 times per semester) into groups such that two students would work in the same group a minimum number of times.
+
+-------------------------------------------------------------------------------
+
+The program uses Python and a third party package NumPy.
+
+Both packages can be downloaded here:
+Python: http://www.python.org/download/
+NumPy: http://new.scipy.org/download.html
+
+-------------------------------------------------------------------------------
+
+To run the program...
+on Windows: Click on the lab_assigner.bat file. (The .bat file assumes you are using Python2.6)
+Linux or MaxOS: In a terminal from the lab_assigner/ directory, run  $ python schoolgirl.py
+
+The program will then prompt you to enter some needed information to run.
+1) The total number of students in the class/lab section.
+2) The total number of labs the students will complete.
+3) For each lab you will enter the baseline group size for that lab.
+(NOTE: The program will never assign a group with less than this baseline number. If the students cannot be divided up evenly the extra students will be added on to other groups.)
+4) The filename to save the results to. If left blank it will just print the results to the screen, otherwise it will save them in a text file of the name given.
+(NOTE: If a file of that name already exists then IT WILL BE OVERWRITTEN.)
+5) The time limit for the program to run. In some configurations there is no perfect solution where no two students work together twice. If the program has not found a solution by the time limit it will print out the best solution found to that point.
+(For most configurations it should take a few seconds to a minute to complete, I would recommend using 5 minutes as a time limit.)
+
+
+
